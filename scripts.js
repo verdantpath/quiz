@@ -1,6 +1,6 @@
 
 var correctAnswers = 0;
-console.log(correctAnswers);
+// console.log(correctAnswers);
 
 var questionOne = prompt("Who was the first President?");
 if (questionOne.toUpperCase() == "GEORGE WASHINGTON" || questionOne.toUpperCase() == "GW") {
@@ -43,4 +43,4 @@ if (correctAnswers >= 5) {
 var finalMessage = "You answered " + correctAnswers + " questions correctly. You get a " + badge + " badge.";
 
 document.write(finalMessage);
-console.log(correctAnswers);
+// console.log(correctAnswers);
