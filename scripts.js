@@ -3,32 +3,32 @@ var correctAnswers = 0;
 console.log(correctAnswers);
 
 var questionOne = prompt("Who was the first President?");
-if (questionOne == "George Washington" || questionOne == "GW") {
-  var correctAnswers = correctAnswers + 1;
+if (questionOne.toUpperCase() == "GEORGE WASHINGTON" || questionOne.toUpperCase() == "GW") {
+  correctAnswers += 1;
   console.log(correctAnswers);
 }
 
 var questionTwo = prompt("How many ounces in a pound?");
 if (questionTwo == "16") {
-  var correctAnswers = correctAnswers + 1;
+  correctAnswers = correctAnswers + 1;
   console.log(correctAnswers);
 }
 
 var questionThree = prompt("How many fingers on a hand?");
 if (questionThree == "5") {
-  var correctAnswers = correctAnswers + 1;
+  correctAnswers = correctAnswers + 1;
   console.log(correctAnswers);
 }
 
 var questionFour = prompt("What color is the sky?");
-if (questionFour == "blue") {
-  var correctAnswers = correctAnswers + 1;
+if (questionFour.toUpperCase() == "BLUE") {
+  correctAnswers = correctAnswers + 1;
   console.log(correctAnswers);
 }
 
 var questionFive = prompt("What programming languate is the best?");
-if (questionFive == "JavaScript" || questionFive == "js") {
-  var correctAnswers = correctAnswers + 1;
+if (questionFive.toUpperCase() == "JAVASCRIPT" || questionFive.toUpperCase() == "JS") {
+  correctAnswers = correctAnswers + 1;
   console.log(correctAnswers);
 }
 badge = "nothing";
