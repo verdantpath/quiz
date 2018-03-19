@@ -43,4 +43,4 @@ if (correctAnswers >= 5) {
 var finalMessage = "You answered " + correctAnswers + " questions correctly. You get a " + badge + " badge.";
 
 document.write(finalMessage);
-// console.log(correctAnswers);
+// git console.log(correctAnswers);
